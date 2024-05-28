@@ -8,8 +8,7 @@ In general, Emu8086 is easier to use, write code and test program.
 traffic light lights and their marking
 ![Screenshot (2)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Ligth%20logic.png)
 
-![Screenshot (3)]()
-![Screenshot (4)]()
+
 
 
 [Slavko Srebrenoski ](https://github.com/slavko444)
