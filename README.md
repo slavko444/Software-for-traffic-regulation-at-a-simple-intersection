@@ -5,6 +5,7 @@ Exercise of Low Level Programming with 8086 Assembly Lecture, implemented with E
 In general, Emu8086 is easier to use, write code and test program. 
 
 ![Screenshot (1)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Traffic%20light%20lights%20and%20their%20marking.png)
+traffic light lights and their marking
 ![Screenshot (2)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Ligth%20logic.png)
 
 ![Screenshot (3)]()
