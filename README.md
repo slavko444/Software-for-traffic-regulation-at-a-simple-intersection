@@ -4,11 +4,11 @@
 Exercise of Low Level Programming with 8086 Assembly Lecture, implemented with Emu8086.
 In general, Emu8086 is easier to use, write code and test program. 
 
-![Screenshot (1)](https://github.com/tamaraatanasova/8086-Show-Real-Time/blob/main/Screenshot%202024-05-22%20125433.png)
-![Screenshot (2)](https://github.com/tamaraatanasova/8086-Show-Real-Time/blob/main/Screenshot%202024-05-22%20125443.png)
+![Screenshot (1)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Traffic%20light%20lights%20and%20their%20marking.png)
+![Screenshot (2)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Ligth%20logic.png)
 
-![Screenshot (3)](https://github.com/tamaraatanasova/8086-Show-Real-Time/blob/main/Screenshot%202024-05-22%20120402.png)
-![Screenshot (4)](https://github.com/tamaraatanasova/8086-Show-Real-Time/blob/main/Screenshot%202024-05-22%20120352.png)
+![Screenshot (3)]()
+![Screenshot (4)]()
 
 
 [Slavko Srebrenoski ](https://github.com/slavko444)
