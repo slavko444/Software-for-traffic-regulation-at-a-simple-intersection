@@ -1,16 +1,55 @@
 # Software-for-traffic-regulation-at-a-simple-intersection
 
-
-Exercise of Low Level Programming with 8086 Assembly Lecture, implemented with Emu8086.
-In general, Emu8086 is easier to use, write code and test program. 
+Да се проектира решение за раскрсница со помош на
+семафори, да се предложи минимално хардверско решение
+(како име на компонента). 
 
 ![Screenshot (1)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Traffic%20light%20lights%20and%20their%20marking.png)
-traffic light lights and their marking
+
+
+
+**Resenie:**
+
+
+
 ![Screenshot (2)](https://github.com/slavko444/Software-for-traffic-regulation-at-a-simple-intersection/blob/main/Ligth%20logic.png)
 
 
+```
+START MVI H,LIGHT
+
+MVI L, LOC ;можеше и LXI H, LIGHT LOC
+
+MOV A,M ; се вчитува првата локација од ROM
+
+OUT PORTA ; се праќа на соодветна I/O порта
+
+CALL DOCNI_1MIN ;се повикува процедура за доцнење од 1 минута
+
+INX H ; зголеми го HL парот за 1 (наредна локација)
+
+MOV A,M ; се вчитува втората локација од ROM
+
+OUT PORTA ; се праќа на соодветна I/O порта
+
+CALL DOCNI_3SEC ;се повикува процедура за доцнење од 3 секунди
+
+-
+
+-
+
+MOV A,M ; се вчитува првата локација од ROM
+
+OUT PORTA ; се праќа на соодветна I/O порта
+
+CALL DOCNI_3SEC ;се повикува процедура за доцнење од 3 секунди
+
+JMP START ;на почеток на првобитната состојба на семафорот
+
+END 
 
 
+```
 [Slavko Srebrenoski ](https://github.com/slavko444)
 
 
